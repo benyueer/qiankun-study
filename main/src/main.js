@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import App from './App.vue';
+import App from './app.vue';
 import { registerMicroApps, start } from 'qiankun';
 import microApps from './micro-app';
 
