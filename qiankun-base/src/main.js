@@ -11,13 +11,13 @@ import { registerMicroApps, start } from 'qiankun'
 const apps = [
   {
     name: 'vueApp',
-    entry: '//124.220.207.133:10000', // 默认会加载这个html，解析其js，并动态执行，子应用必须支持跨域
+    entry: '//localhost:10000', // 默认会加载这个html，解析其js，并动态执行，子应用必须支持跨域
     container: '#vue',
     activeRule: '/vue',
   },
   {
     name: 'reactApp',
-    entry: '//124.220.207.133:20000', // 默认会加载这个html，解析其js，并动态执行，子应用必须支持跨域
+    entry: '//localhost:20000', // 默认会加载这个html，解析其js，并动态执行，子应用必须支持跨域
     container: '#react',
     activeRule: '/react',
   },
