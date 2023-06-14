@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <BrowserRouter basename='/react'>
+      <BrowserRouter basename='/vue'>
         <Link to="/">home</Link>
         <Link to="/about">about</Link>
         <Routes>

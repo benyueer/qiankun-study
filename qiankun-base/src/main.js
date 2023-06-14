@@ -19,7 +19,7 @@ const apps = [
     name: 'reactApp',
     entry: '//localhost:20000', // 默认会加载这个html，解析其js，并动态执行，子应用必须支持跨域
     container: '#react',
-    activeRule: '/react',
+    activeRule: '/vue',
   },
 ]
 
